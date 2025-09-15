@@ -2,6 +2,7 @@ import { input } from "./lib/input.js";
 import { showAsMenu } from "./lib/output.js";
 import { selectProduct } from "./lib/products.js";
 import { showCarts } from "./lib/carts.js";
+import {showHistory} from "./lib/history.js";
 
 const listMenu = [
   {
@@ -11,6 +12,10 @@ const listMenu = [
   {
     title: "Keranjang",
     func: showCarts
+  },
+  {
+    title: "History",
+    func: showHistory
   }
 ];
 
