@@ -5,6 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
+    "dev": "node index.js",
     "lint": "eslint ./*.js ./**/*.js",
     "lint:fix": "eslint ./*.js ./**/*.js --fix"
   },
